@@ -1,0 +1,31 @@
+{
+  "name": "adminplus-boilerplate-npm",
+  "version": "1.0.0",
+  "description": "A simple npm setup and minimal boilerplate for AdminPlus Lite",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-vendor": "copyfiles -f node_modules/adminplus/dist/* node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.js node_modules/tether/dist/js/tether.min.js vendor",
+    "deploy": "surge"
+  },
+  "keywords": [
+    "adminplus",
+    "npm",
+    "boilerplate",
+    "bootstrap",
+    "bootstrap4",
+    "theme",
+    "template"
+  ],
+  "author": "Laza Bogdan <laza.bogdan@macro-net.ro>",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^0.2.1",
+    "surge": "^0.17.7"
+  },
+  "dependencies": {
+    "adminplus": "^1.0.0-alpha.3",
+    "bootstrap": "^4.0.0-alpha.2",
+    "jquery": "^2.2.0",
+    "tether": "^1.2.0"
+  }
+}
