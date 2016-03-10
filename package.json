@@ -1,6 +1,6 @@
 {
   "name": "adminplus-boilerplate-npm",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple npm setup and minimal boilerplate for AdminPlus Lite Bootstrap Theme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,8 +14,9 @@
     "surge": "^0.17.7"
   },
   "dependencies": {
-    "adminplus": "1.0.0-alpha.6",
+    "adminplus": "1.0.0-alpha.9",
     "bootstrap": "4.0.0-alpha.2",
+    "bootstrap-layout": "1.0.0-alpha.3",
     "jquery": "^2.2.0",
     "tether": "^1.2.0"
   }

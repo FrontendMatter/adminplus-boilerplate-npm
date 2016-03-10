@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="bootstrap-layout">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,19 +19,19 @@
 	<link type="text/css" href="vendor/adminplus.css" rel="stylesheet">
 
 </head>
-<body class="ls-top-navbar">
+<body class="layout-container ls-top-navbar si-l3-md-up">
 
 	<!-- Navbar -->
-	<nav class="navbar navbar-light bg-white navbar-full navbar-fixed-top left-md-sidebar">
+	<nav class="navbar navbar-light bg-white navbar-full navbar-fixed-top ls-left-sidebar">
 
 		<!-- Navbar toggle -->
 		<button class="navbar-toggler hidden-md-up pull-xs-right" type="button" data-toggle="collapse" data-target="#navbar"><span class="material-icons">menu</span></button>
 
 		<!-- Sidebar toggle -->
-    	<button class="navbar-toggler pull-xs-left hidden-md-up first-child-xs" type="button" data-toggle="sidebar" data-target="#sidebar"><span class="material-icons">menu</span></button>
+    	<button class="navbar-toggler pull-xs-left" type="button" data-toggle="sidebar" data-target="#sidebar"><span class="material-icons">menu</span></button>
 
 		<!-- Brand -->
-		<span class="navbar-brand first-child-md">Sidebar layout</span>
+		<span class="navbar-brand">Sidebar layout</span>
 
 		<!-- Collapse -->
 		<div class="collapse navbar-toggleable-xs" id="navbar">
@@ -45,18 +45,18 @@
 	<!-- // END Navbar -->
 
 	<!-- Sidebar -->
-	<div class="sidebar sidebar-left sidebar-dark bg-primary show-desktop" id="sidebar">
+	<div class="sidebar sidebar-left si-si-3 sidebar-visible-md-up sidebar-dark bg-primary" id="sidebar">
 
 		<!-- Brand -->
 		<a href="index.html" class="sidebar-brand">Brand</a>
 
 		<!-- Menu -->
-		<ul class="nav">
-			<li class="nav-item">
-				<a class="nav-link" href="index.html"><i class="material-icons">home</i><span class="icon-text">Fixed layout</span></a>
+		<ul class="sidebar-menu sm-active-button-bg">
+			<li class="sidebar-menu-item">
+				<a class="sidebar-menu-button" href="index.html"><i class="sidebar-menu-icon material-icons">home</i> Fixed layout</a>
 			</li>
-			<li class="nav-item active">
-				<a class="nav-link" href="sidebar.html"><i class="material-icons">menu</i><span class="icon-text">Sidebar layout</span></a>
+			<li class="sidebar-menu-item active">
+				<a class="sidebar-menu-button" href="sidebar.html"><i class="sidebar-menu-icon material-icons">menu</i> Sidebar layout</a>
 			</li>
 		</ul>
 		<!-- // END Menu -->
@@ -65,7 +65,7 @@
 	<!-- // END Sidebar -->
 
 	<!-- Content -->
-	<div class="content-wrapper">
+	<div class="layout-content" data-scrollable>
 		<div class="container-fluid">
 
 			<!-- Breadcrumb -->
@@ -100,9 +100,13 @@
 	<!-- AdminPlus -->
 	<script src="vendor/adminplus.js"></script>
 
-	<!-- Initialize Sidebar -->
+	<!-- Initialize -->
 	<script>
+		// Initialize Sidebar
 		AdminPlus.Sidebar.init()
+		
+		// Initialize Scrollbars
+		AdminPlus.Scrollable()
 	</script>
 
 </body>
