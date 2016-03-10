@@ -14,8 +14,8 @@
     "surge": "^0.17.7"
   },
   "dependencies": {
-    "adminplus": "^1.0.0-alpha.4",
-    "bootstrap": "^4.0.0-alpha.2",
+    "adminplus": "1.0.0-alpha.6",
+    "bootstrap": "4.0.0-alpha.2",
     "jquery": "^2.2.0",
     "tether": "^1.2.0"
   }
