@@ -1,6 +1,6 @@
 {
   "name": "adminplus-boilerplate-npm",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple npm setup and minimal boilerplate for AdminPlus Lite Bootstrap Theme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
