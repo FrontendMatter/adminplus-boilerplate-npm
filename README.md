@@ -1,8 +1,35 @@
 # adminplus-boilerplate-npm
-Simple npm setup and minimal boilerplate for [AdminPlus Lite Bootstrap Theme](http://adminplus.themekit.io).
+Basic boilerplate using [AdminPlus Lite](https://github.com/themekit/adminplus) and [Bootstrap Layout](https://github.com/themekit/bootstrap-layout).
 
 ### Demo
-> You can [see a working live demo](http://npm.adminplus-boilerplate.themekit.io) of this boilerplate.
+> You can [see a working live demo](http://adminplus-boilerplate-npm.themekit.io) of this boilerplate.
 
-### Usage
-> Read the full guide [Simple npm workflow](http://adminplus.themekit.io/basic-usage). 
+### Features
+- simple npm setup
+- no build tools
+- static HTML layout examples
+
+## Usage
+#### Clone the boilerplate repository
+```bash
+git clone https://github.com/themekit/adminplus-boilerplate-npm.git my-project
+```
+
+```bash
+cd my-project
+```
+
+#### Install dependencies
+```bash
+npm install
+```
+
+#### Copy vendor assets
+```bash
+npm run copy-vendor
+```
+
+---
+
+## Get help
+Get help directly from our team via our Slack channel. [Request invite](http://themekit-slack-invite.stamplayapp.com/)

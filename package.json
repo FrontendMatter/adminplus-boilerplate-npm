@@ -1,10 +1,10 @@
 {
   "name": "adminplus-boilerplate-npm",
-  "version": "1.1.2",
-  "description": "Simple npm setup and minimal boilerplate for AdminPlus Lite Bootstrap Theme",
+  "version": "1.2.0",
+  "description": "Basic boilerplate using AdminPlus Lite and Bootstrap Layout",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy-vendor": "copyfiles -f node_modules/adminplus/dist/* node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.js node_modules/tether/dist/js/tether.min.js vendor",
+    "copy-vendor": "copyfiles -f node_modules/bootstrap-layout/dist/* node_modules/bootstrap-layout-scrollable/dist/* node_modules/simplebar/dist/* node_modules/adminplus/dist/* node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.js node_modules/tether/dist/js/tether.min.js vendor",
     "deploy": "surge"
   },
   "author": "Laza Bogdan <laza.bogdan@macro-net.ro>",
@@ -14,10 +14,12 @@
     "surge": "^0.17.7"
   },
   "dependencies": {
-    "adminplus": "1.0.0-alpha.10",
+    "adminplus": "1.0.0-alpha.12",
     "bootstrap": "4.0.0-alpha.2",
-    "bootstrap-layout": "1.0.0-alpha.4",
+    "bootstrap-layout": "^1.0.0-alpha.8",
+    "bootstrap-layout-scrollable": "^1.0.2",
     "jquery": "^2.2.0",
+    "simplebar": "github:grsmto/simplebar",
     "tether": "^1.2.0"
   }
 }
